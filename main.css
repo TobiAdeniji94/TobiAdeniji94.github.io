@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Livvic&display=swap');
+
+body {
+    margin: 0;
+    background: rgba(173, 255, 255, 0.541);
+    font-family: 'Livvic', sans-serif;
+}
+
+p {
+    font-size: 1.em;
+    line-height: 1em;
+}
+
+li {
+    text-align: center;
+    font-size: 1.em;
+    list-style-type: disc;
+    margin: 100px;
+    padding: 1px;
+}
+
+.container {
+    text-align: center;
+    background: rgba(123, 40, 231, 0.781);
+    margin: 1%;
+    padding: 100px;
+    color: white;
+    border-radius: 50px;
+}
+
+.header {
+    display: flex;
+}
+
+.photo {
+    border-radius: 50%;
+}
+
+.KeySkLogo {
+    width: 60px;
+}
+
+.TechSkLogo {
+    width: 60px;
+}
+
+.EduLogo {
+    width: 60px;
+}
+
+.OthLogo {
+    width: 60px;
+}
+
+.AttrLogo {
+    width: 60px;
+}
+
+.RefLogo {
+    width: 60px;
+}
+
+.gitLogo {
+    width: 60px;
+}
+
+.achievements-container {
+    text-align: center;
+    background:  rgba(123, 40, 231, 0.781);  
+    margin: 1%;
+    padding: 100px;
+    color: white;
+    border-radius: 50px;
+}
+
+.achievements-container li {
+    margin-bottom: 3em;
+    margin-top: 1em;
+
+}
+.referee-container {
+    text-align: center;
+    background:  rgba(123, 40, 231, 0.781);
+    margin: 1%;
+    padding: 100px;
+    color: white;
+    border-radius: 50px;
+}
+
+.footer-container {
+    text-align: center;
+    background: grey;
+    padding: 100px;
+    color: white;
+}
+
+.contact-form {
+    padding: 30px 40px;
+    display: block;
+}
+
+.Tle label{
+    display: block;
+    padding: 10px;
+    text-transform: uppercase;    
+}
+
+.Nme label{
+    display: block;
+    padding: 10px; 
+    text-transform: uppercase;   
+}
+
+.Eml label{
+    display: block;
+    padding: 10px; 
+    text-transform: uppercase;   
+}
+
+.Mss label{
+    display: block;
+    padding: 10px; 
+    text-transform: uppercase;   
+}
+.contact-form textarea{
+    width: 40%;  
+    padding: 10px;
+}
+.btn{
+    display: block;
+    background: rgba(123, 40, 231, 0.781);
+    padding: 10px 100px;
+    border: 0;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Lucida Sans';    
+    cursor: pointer;
+    width: 100%;
+    border-radius: 25px;
+    letter-spacing: 5px;
+}
+
+.errorMessage{
+    text-align: center;
+    padding: 0px;
+    background: #fe8b8e;
+    color: black;
+    font-size: 14px;
+    transition: all 0.5s ease;
+    
+}
+
+
