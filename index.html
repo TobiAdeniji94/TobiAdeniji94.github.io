@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Tobi Adeniji CV">
+<meta name="Keywords" content="web designer, content manager, developer, coder, programming">
+
+<title>
         CV of Adeniji Ifeoluwatobi Omoefe
-    </title>
+</title>
     <link rel="stylesheet" href="main.css">
     <script src="script.js"></script>
 </head>
@@ -101,27 +107,27 @@
                 <h2>Contact Me</h2>
                 <div class="errorMessage" id="error_message"></div>
 
-                <form id="myform" onsubmit="return validation()">
+                <form id="myform" onsubmit="return validation()" action="contact.php"method="post">
                 <div class="Tle">
                     <label>Title</label>
-                    <input type="text" id="title" placeholder="Enter Your Title">    
+                    <input type="text" id="title" name="title" placeholder="Enter Your Title">    
                 </div>
 
                 <div class="Nme">
                     <label>Name</label>
-                    <input type="text" id="name" placeholder="Enter Your Name">    
+                    <input type="text" id="name" name="name" placeholder="Enter Your Name">    
                 </div>
 
                 <div class="Eml">
                     <label>Email</label>
-                    <input type="text" id="email" placeholder="Enter Your Email">    
+                    <input type="text" id="email" name="email" placeholder="Enter Your Email">    
                 </div>
 
                 <div class="Mss">
                     <label>Message</label>
-                    <textarea id="message" placeholder="Please Enter Your Message"></textarea>    
+                    <textarea id="message" name="message" placeholder="Please Enter Your Message"></textarea>    
                 </div>
-                <button type="submit" class="btn">Send</button>
+                <button type="submit" name="submit" class="btn">Send</button>
                 </form>
                 
             </div>
