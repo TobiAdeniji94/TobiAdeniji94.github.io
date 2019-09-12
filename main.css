@@ -23,7 +23,7 @@ li {
     text-align: center;
     background: rgba(123, 40, 231, 0.781);
     margin: 1%;
-    padding: 100px;
+    padding: 10%;
     color: white;
     border-radius: 50px;
 }
@@ -68,7 +68,7 @@ li {
     text-align: center;
     background:  rgba(123, 40, 231, 0.781);  
     margin: 1%;
-    padding: 100px;
+    padding: 10%;
     color: white;
     border-radius: 50px;
 }
@@ -82,7 +82,7 @@ li {
     text-align: center;
     background:  rgba(123, 40, 231, 0.781);
     margin: 1%;
-    padding: 100px;
+    padding: 10%;
     color: white;
     border-radius: 50px;
 }
@@ -90,7 +90,7 @@ li {
 .footer-container {
     text-align: center;
     background: grey;
-    padding: 100px;
+    padding: 10%;
     color: white;
 }
 
@@ -124,18 +124,17 @@ li {
 }
 .contact-form textarea{
     width: 40%;  
-    padding: 10px;
+    padding: 15px;
 }
 .btn{
-    display: block;
     background: rgba(123, 40, 231, 0.781);
-    padding: 10px 100px;
+    padding: 1.2%;
     border: 0;
     text-transform: uppercase;
     color: white;
     font-family: 'Lucida Sans';    
     cursor: pointer;
-    width: 100%;
+    width: 35%;
     border-radius: 25px;
     letter-spacing: 5px;
 }
